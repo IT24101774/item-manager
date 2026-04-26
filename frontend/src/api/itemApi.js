@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "illustrious-purpose-production-5b16.up.railway.app",
+  baseURL: "https://illustrious-purpose-production-5b16.up.railway.app",
 });
 
 export const getItems = () => API.get("/items");
